@@ -1,8 +1,17 @@
+// ------------- FILE HEADER -------------
+// Author : Scott "Eridatus"
+// Assignment : 1
+// Date : 9/26
+// Citations: cpp.sh for build + tests
+// Main.cpp file for double checks
+// CoPilot AI for answering very specific questions
+// Things like how to run certain commands or c++ language translations
+
 #include <iostream>
 using namespace std;
 
 int main() {
-    // input info
+    // list input info
     int employee_id = 0;
     int hours_worked = 0;
     int usd_per_hour = 0;
@@ -47,7 +56,4 @@ int main() {
 }
 
 
-// built and tested in c++ shell
-// i uh idk how to run the code here
-// um
-// yea
+// datus.data

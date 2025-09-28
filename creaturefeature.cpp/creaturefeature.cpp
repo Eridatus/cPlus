@@ -5,7 +5,7 @@
 // Citations: cpp.sh for build + tests
 // Main.cpp file for double checks
 // CoPilot AI for answering very specific questions
-// Things like how to run certain commands or c++ language translations
+// Things like what's causing errors or how to fix a wonky line of code
 
 #include <iostream>
 using namespace std;
@@ -50,7 +50,6 @@ int main() {
     cout << "Tax withholding $ " << fed_tax_withhold_usd << endl;
     cout << "Net pay $ " << net_pay_usd << endl;
     cout << "Thank you for using the Weekly Payroll Program.\n";
-    // the lord hath been merciful it works
 
     return 0;
 }

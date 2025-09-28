@@ -2,10 +2,12 @@
 // Author : Scott "Eridatus"
 // Assignment : 1
 // Date : 9/26
-// Citations: cpp.sh for build + tests
-// Main.cpp file for double checks
-// CoPilot AI for answering very specific questions
-// Things like what's causing errors or how to fix a wonky line of code
+// Citations: 
+// cpp.sh for build + tests
+// Your Main.cpp file for the final checks
+// And CoPilot AI for answering very specific questions
+// Things like what's causing an error or how to fix a wonky line of code
+// stuff like that
 
 #include <iostream>
 using namespace std;
@@ -50,6 +52,7 @@ int main() {
     cout << "Tax withholding $ " << fed_tax_withhold_usd << endl;
     cout << "Net pay $ " << net_pay_usd << endl;
     cout << "Thank you for using the Weekly Payroll Program.\n";
+    // LORD it works
 
     return 0;
 }

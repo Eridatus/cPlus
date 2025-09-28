@@ -3,7 +3,7 @@
 // Assignment : 1
 // Date : 9/26
 // Citations: 
-// cpp.sh for build + tests
+// cpp.sh for original build + tests
 // Your Main.cpp file for the final checks
 // And CoPilot AI for answering very specific questions
 // Things like what's causing an error or how to fix a wonky line of code

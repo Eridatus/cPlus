@@ -1,0 +1,37 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() 
+{
+  // numbarz
+  int cookies = 0;
+  double servings = 0.0;
+  double calories = 0.0;
+
+  // constants
+  const int cookiesPerServing = 3;
+  const int caloriesPerServing = 160;
+
+  // user interaction
+  cout << "Welcome to the Oreo Calculator." << endl;
+  cout << "Enter the number of Oreos you have eaten: "
+  cin >> numCookies;
+  
+  servings = static_cast<double>(cookies) / cookiesPerServing;
+  calories = servings * caloriesPerServing;
+  cout << endl;
+  
+  // this thing. still don't know exactly what it does :/
+  cout << fixed << setprecision(1);
+  
+  // final outputs
+  cout << "A total of " << cookies << " is equal to " << servings << " servings." << endl;
+  cout << "This equals " << calories << " total calories." endl;
+  cout << "Remember to eat something healthy with that." endl;
+  cout << "And drink water."
+
+  return 0;
+}
+
+// datus.data

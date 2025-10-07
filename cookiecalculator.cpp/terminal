@@ -9,7 +9,7 @@ int main()
   double servings = 0.0;
   double calories = 0.0;
 
-  // constants
+  // constants 
   const int cookiesPerServing = 3;
   const int caloriesPerServing = 160;
 

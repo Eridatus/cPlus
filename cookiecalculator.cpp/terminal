@@ -16,7 +16,7 @@ int main()
   // user interaction
   cout << "Welcome to the Oreo Calculator." << endl;
   cout << "Enter the number of Oreos you have eaten: "
-  cin >> numCookies;
+  cin >> cookies;
   
   servings = static_cast<double>(cookies) / cookiesPerServing;
   calories = servings * caloriesPerServing;

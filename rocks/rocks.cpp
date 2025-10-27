@@ -5,7 +5,7 @@
 #include <vector>
 #include <algorithm>
 // we're allowed to use vector and algorithm right?
-// i tried using the a hellish spiderweb of bools first
+// i tried using a hellish spiderweb of bools first
 // but it made me wanna put my head through a wall
 using namespace std;
 

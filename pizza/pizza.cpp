@@ -31,7 +31,7 @@ int main() {
         double tax = cost * TAX_RATE;
         double delivery = (cost + tax) * DELIVERY_RATE;
         double total = cost + tax + delivery;
-
+// there is no situation where anybody needs this many doubles
         cout << fixed << setprecision(2);
         cout << "Pizzas needed: " << pizzasNeeded << endl;
         cout << "Cost: $" << cost << endl;
@@ -51,7 +51,6 @@ int main() {
 
     } while (runAgain == 'y' || runAgain == 'Y');
 
-    // Final summary
     cout << fixed << setprecision(1);
     cout << "\nNumber of party entries: " << partyCount << endl;
     cout << "Total number of pizzas: " << totalPizzas << endl;
@@ -63,6 +62,7 @@ int main() {
     }
     cout << "Goodbye!" << endl;
 // im about to crash out bro
+// its so horrific but it works so fuck it
     return 0;
 }
 
